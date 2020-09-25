@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        
+        .main {
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 15%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <h4>Please review your order, and click purchase once you are ready to proced</h4>
+
+        <table>
+            <tr>
+                <th>Payment Option</th>
+                <th>Description</th>
+                <th>Visibility</th>
+                <th>Price [Rs]</th>
+            </tr>
+            <tr>
+                <td><input type="radio" id="bacic_pk" name="package" value="15 Days"> Basic</td>
+                <td>Listing for 15 days</td>
+                <td>15 Days</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="pro_pk" name="package" value="30 Days"> Pro</td>
+                <td>Listing for 30 days</td>
+                <td>30 Days</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="pre_pk" name="package" value="3 Months"> Premium</td>
+                <td>Listing for 3 Months</td>
+                <td>3 Months</td>
+                <td>500</td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+
+</html>
